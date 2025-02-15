@@ -15,6 +15,12 @@ public class CicdApplication {
 		return "hello sameer";
 	}
 
+
+	@GetMapping("/test")
+	public String test(){
+		return "hello test";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(CicdApplication.class, args);
 	}
